@@ -1,5 +1,7 @@
 # 🌍 Geo-Explorer
 
+![Testes](https://github.com/jessikamelo27-bit/geo-explorer/actions/workflows/tests.yml/badge.svg)
+
 > Explore trilhas de aprendizagem, receba desafios de código e gere certificados fictícios — direto pelo terminal.
 
 Geo-Explorer é um projeto de portfólio desenvolvido com o apoio do **IBM Bob**, como parte do desafio do bootcamp **IBM Bob IA — Nível Empresarial para Desenvolvedores** na DIO.
