@@ -1,0 +1,149 @@
+{
+  "trilhas": [
+    {
+      "id": "javascript",
+      "nome": "JavaScript Moderno",
+      "descricao": "Aprenda JavaScript do zero ao avançado, cobrindo ES6+, assincronismo e boas práticas.",
+      "duracao_horas": 40,
+      "niveis": {
+        "iniciante": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Fundamentos de JavaScript", "topicos": ["Variáveis e tipos", "Operadores", "Condicionais", "Loops"] },
+            { "ordem": 2, "titulo": "Funções e Escopo", "topicos": ["Declaração de funções", "Arrow functions", "Closures", "Hoisting"] },
+            { "ordem": 3, "titulo": "Arrays e Objetos", "topicos": ["Métodos de array", "Desestruturação", "Spread/Rest", "JSON"] }
+          ]
+        },
+        "intermediario": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Programação Assíncrona", "topicos": ["Callbacks", "Promises", "Async/Await", "Event Loop"] },
+            { "ordem": 2, "titulo": "Módulos e Tooling", "topicos": ["ES Modules", "CommonJS", "npm/yarn", "Bundlers"] },
+            { "ordem": 3, "titulo": "Manipulação do DOM", "topicos": ["Seletores", "Eventos", "Fetch API", "LocalStorage"] }
+          ]
+        },
+        "avancado": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Padrões de Projeto", "topicos": ["Factory", "Observer", "Module Pattern", "SOLID"] },
+            { "ordem": 2, "titulo": "Otimização e Performance", "topicos": ["Debounce/Throttle", "Web Workers", "Memory leaks", "Profiling"] },
+            { "ordem": 3, "titulo": "Testes em JavaScript", "topicos": ["Jest", "TDD", "Mocking", "Coverage"] }
+          ]
+        }
+      }
+    },
+    {
+      "id": "python",
+      "nome": "Python para Desenvolvimento",
+      "descricao": "Domine Python desde a sintaxe básica até aplicações com APIs e automações.",
+      "duracao_horas": 45,
+      "niveis": {
+        "iniciante": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Sintaxe e Tipos", "topicos": ["Variáveis", "Tipos primitivos", "Strings", "Listas e tuplas"] },
+            { "ordem": 2, "titulo": "Controle de Fluxo", "topicos": ["If/else", "For/while", "List comprehension", "Funções"] },
+            { "ordem": 3, "titulo": "Estruturas de Dados", "topicos": ["Dicionários", "Sets", "Pilhas e filas", "Ordenação"] }
+          ]
+        },
+        "intermediario": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Programação Orientada a Objetos", "topicos": ["Classes", "Herança", "Polimorfismo", "Dunder methods"] },
+            { "ordem": 2, "titulo": "Manipulação de Arquivos e APIs", "topicos": ["File I/O", "JSON", "Requests", "REST APIs"] },
+            { "ordem": 3, "titulo": "Bibliotecas Essenciais", "topicos": ["os/sys", "datetime", "re (regex)", "logging"] }
+          ]
+        },
+        "avancado": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Python Avançado", "topicos": ["Generators", "Decorators", "Context managers", "Metaclasses"] },
+            { "ordem": 2, "titulo": "Concorrência", "topicos": ["Threading", "Multiprocessing", "asyncio", "aiohttp"] },
+            { "ordem": 3, "titulo": "Testes e Qualidade", "topicos": ["pytest", "unittest.mock", "Coverage", "Type hints"] }
+          ]
+        }
+      }
+    },
+    {
+      "id": "react",
+      "nome": "React e Ecossistema",
+      "descricao": "Crie aplicações web modernas com React, hooks, gerenciamento de estado e testes.",
+      "duracao_horas": 50,
+      "niveis": {
+        "iniciante": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Fundamentos do React", "topicos": ["JSX", "Componentes", "Props", "State com useState"] },
+            { "ordem": 2, "titulo": "Ciclo de Vida e Hooks Básicos", "topicos": ["useEffect", "useRef", "Conditional rendering", "Listas"] },
+            { "ordem": 3, "titulo": "Estilização", "topicos": ["CSS Modules", "Styled-components", "Tailwind CSS", "Responsividade"] }
+          ]
+        },
+        "intermediario": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Gerenciamento de Estado", "topicos": ["Context API", "useReducer", "Zustand", "Lifting state"] },
+            { "ordem": 2, "titulo": "Roteamento", "topicos": ["React Router", "Rotas aninhadas", "Lazy loading", "Protected routes"] },
+            { "ordem": 3, "titulo": "Consumo de APIs", "topicos": ["Fetch/Axios", "React Query", "SWR", "Loading states"] }
+          ]
+        },
+        "avancado": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Performance em React", "topicos": ["useMemo/useCallback", "React.memo", "Code splitting", "Profiler"] },
+            { "ordem": 2, "titulo": "Testes em React", "topicos": ["Testing Library", "Jest", "MSW (mock)", "E2E com Playwright"] },
+            { "ordem": 3, "titulo": "Arquitetura de Projetos", "topicos": ["Feature-based structure", "Custom hooks", "Compound components", "Design systems"] }
+          ]
+        }
+      }
+    },
+    {
+      "id": "node",
+      "nome": "Node.js e APIs REST",
+      "descricao": "Desenvolva backends robustos com Node.js, Express, autenticação e banco de dados.",
+      "duracao_horas": 42,
+      "niveis": {
+        "iniciante": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Node.js Básico", "topicos": ["Event loop", "Módulos nativos", "File system", "HTTP module"] },
+            { "ordem": 2, "titulo": "Express.js", "topicos": ["Rotas", "Middlewares", "Req/Res", "Error handling"] },
+            { "ordem": 3, "titulo": "Banco de Dados", "topicos": ["SQLite", "Prisma ORM", "CRUD básico", "Migrations"] }
+          ]
+        },
+        "intermediario": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Autenticação e Segurança", "topicos": ["JWT", "bcrypt", "CORS", "Rate limiting"] },
+            { "ordem": 2, "titulo": "APIs RESTful", "topicos": ["HTTP methods", "Status codes", "Validação", "Swagger/OpenAPI"] },
+            { "ordem": 3, "titulo": "Banco de Dados Avançado", "topicos": ["PostgreSQL", "Relacionamentos", "Índices", "Transactions"] }
+          ]
+        },
+        "avancado": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Arquitetura", "topicos": ["Clean Architecture", "SOLID", "Repository Pattern", "Dependency injection"] },
+            { "ordem": 2, "titulo": "Performance e Escalabilidade", "topicos": ["Caching com Redis", "Message queues", "Clustering", "PM2"] },
+            { "ordem": 3, "titulo": "Testes e CI/CD", "topicos": ["Jest + Supertest", "TDD", "GitHub Actions", "Docker"] }
+          ]
+        }
+      }
+    },
+    {
+      "id": "typescript",
+      "nome": "TypeScript Completo",
+      "descricao": "Adicione tipagem estática ao seu JavaScript e escreva código mais seguro e escalável.",
+      "duracao_horas": 35,
+      "niveis": {
+        "iniciante": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Tipos Básicos", "topicos": ["string/number/boolean", "Arrays e tuplas", "Enums", "Type vs Interface"] },
+            { "ordem": 2, "titulo": "Funções e Classes Tipadas", "topicos": ["Parâmetros tipados", "Retorno de funções", "Classes com tipos", "Readonly"] },
+            { "ordem": 3, "titulo": "Configuração", "topicos": ["tsconfig.json", "Compilation", "ts-node", "Integração com npm"] }
+          ]
+        },
+        "intermediario": {
+          "modulos": [
+            { "ordem": 1, "titulo": "Tipos Avançados", "topicos": ["Union e Intersection", "Type guards", "Mapped types", "Conditional types"] },
+            { "ordem": 2, "titulo": "Generics", "topicos": ["Generic functions", "Generic interfaces", "Constraints", "Utility types"] },
+            { "ordem": 3, "titulo": "Decorators e Metadata", "topicos": ["Class decorators", "Method decorators", "reflect-metadata", "experimentalDecorators"] }
+          ]
+        },
+        "avancado": {
+          "modulos": [
+            { "ordem": 1, "titulo": "TypeScript em Escala", "topicos": ["Project references", "Declaration files", "Module augmentation", "Namespaces"] },
+            { "ordem": 2, "titulo": "Padrões com TypeScript", "topicos": ["Discriminated unions", "Builder pattern", "Newtype pattern", "Type-safe APIs"] },
+            { "ordem": 3, "titulo": "Ferramentas e Qualidade", "topicos": ["ESLint + typescript-eslint", "Prettier", "Strict mode", "Vitest"] }
+          ]
+        }
+      }
+    }
+  ]
+}
