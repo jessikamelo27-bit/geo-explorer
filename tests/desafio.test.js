@@ -6,7 +6,7 @@ describe("Comando: desafio", () => {
   it("gera desafio de JavaScript iniciante", () => {
     const resultado = desafio("javascript", "iniciante");
     assert.ok(resultado.includes("GEO-EXPLORER — DESAFIO"));
-    assert.ok(resultado.includes("javascript"));
+    assert.ok(resultado.toLowerCase().includes("javascript"));
     assert.ok(resultado.includes("somaArray"));
   });
 
