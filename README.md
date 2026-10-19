@@ -1,6 +1,6 @@
 # 🌍 Geo-Explorer
 
-![Testes](https://github.com/jessikamelo27-bit/geo-explorer/actions/workflows/tests.yml/badge.svg)
+[![Testes](https://github.com/jessikamelo27-bit/geo-explorer/actions/workflows/tests.yml/badge.svg)](https://github.com/jessikamelo27-bit/geo-explorer/actions/workflows/tests.yml)
 
 > Explore trilhas de aprendizagem, receba desafios de código e gere certificados fictícios — direto pelo terminal.
 
